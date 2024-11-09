@@ -10,7 +10,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => (
   <div className="flex flex-col min-h-screen">
     <Header />
-    <Banner/>
+    <Banner />
     <main className="flex-grow p-6">{children}</main>
     <Footer />
   </div>
